@@ -297,6 +297,10 @@ header
 .background-header .main-nav .nav li a {
   color: #1e1e1e!important;
 }
+.main-nav a img {
+
+  max-width: 120px;
+}
 
 .background-header .main-nav .nav li:hover a {
   color: #ff685f!important;
@@ -924,6 +928,7 @@ Banner Style
 
 .main-banner .item .down-buttons {
   display: inline-flex;
+  gap: 30px;
 }
 
 .main-banner .item .down-buttons .call-button i {
@@ -944,12 +949,18 @@ Banner Style
   color: #ff695f;
   font-size: 15px;
   font-weight: 500;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 .main-banner .owl-dots {
   margin-top: 60px;
   counter-reset: dots;
+}
+
+.link_to_github_button {
+    justify-content: center;
+    margin: 40px auto;
+    display: flex;
 }
 
 .main-banner .owl-dot:before {
@@ -1801,7 +1812,7 @@ footer .footer-item h4 {
 }
 
 footer .about .logo img {
-  width: 89px;
+  width: 104px;
   margin-bottom: 30px;
 }
 
